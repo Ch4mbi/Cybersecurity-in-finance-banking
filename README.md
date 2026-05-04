@@ -1,4 +1,4 @@
-Proyecto de investigacion universitario llevado a cabo y presentado el 25-11-2025.
+Proyecto de investigacion universitario llevado a cabo entre el 29-9-2025 hasta el 25-11-2025.
 
 El escenario es ficticio, dado el contexto de la propia tarea.
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
