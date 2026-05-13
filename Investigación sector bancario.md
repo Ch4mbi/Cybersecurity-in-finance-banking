@@ -3,7 +3,7 @@ Proyecto de investigacion universitario llevado a cabo entre el 29-9-2025 hasta 
 El escenario es ficticio, dado el contexto de la propia tarea.
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
 
-# Introducción
+# 1. Introducción
 
 FINBANK EUROPA es un banco enfocado en la banca digital,bancos electrónicos y  servicios de criptomonedas. Recientemente la empresa ha sufrido diversos ciberataques: 
 - Troyanos bancarios(TINBA, ZEUS) 
@@ -21,7 +21,7 @@ Se va a:
 - Estrategia de comunicación ejecutiva hacia la junta directiva 
 Con el fin de poder prevenir o preparar al entorno financiero para poder defenderse frente a  diversos ataques.
 
-# Amenazas y riesgos en servicios financieros 
+# 2. Amenazas y riesgos en servicios financieros 
 
 Hoy en día, el sector financiero es uno de los principales ,al menos lateralmente, objetivos  de los grupos APT o ataques individuales u organizados ya que son un pilar necesario de  cada país. Objetivamente , el principal factor de riesgo es el factor humano ya que , en un  
 primer lugar, es por errores humanos (como caer en correos de phishing). Más aún si el  empleado o el cliente no tiene experiencia en el sector de la seguridad, y da sus datos a  terceros con fines malintencionados. Por otro lado, otra “amenaza” integrada en el sector  financiero son los propios sistemas o procedimientos.  
@@ -68,9 +68,9 @@ La falta de talento es una de las principales razones por las cuales se sufren  
    - Ciberataques:  
 Los ciberataques pueden comprometer la continuidad del negocio, la economía del banco, y la reputación del mismo.También pueden afectar a las  operaciones bancarias , interrumpiendo transacciones, bloqueando servicios,  reduciendo la confianza de los clientes,...
 
-# Arquitectura de mercados financieros y cadenas  de suministro 
+# 3. Arquitectura de mercados financieros y cadenas  de suministro 
 
-## Mercados financieros 
+## 3.1. Mercados financieros 
 
 La arquitectura de los mercados financieros consiste en la organización de los mismos,  quienes toman lugar en ella y cómo influyen. Principalmente formado por los bancos  centrales siendo estos los responsables de aplicar políticas monetarias, regular las  instituciones financieras y mantener la estabilidad financiera.Las propias instituciones  financieras(Como bancos, empresas de inversión) o los mercados financieros(Compañías  de seguros) facilitan el comercio de activos financieros.  
 La arquitectura financiera se refiere a las instituciones y normativas que rigen las relaciones  financieras del mundo. Se crearon, para la estabilidad y el mantenimiento del sector  financiero global tres ejes: 
@@ -91,7 +91,7 @@ Por lo que, para mitigar lo riesgos que supone la digitalización de los mercado
 - Tener implementado un monitoreo continuo de redes, transacciones, logs,… • Implementar controles de acceso 
 - Implementar sistemas de autenticación seguros
 
-## Cadena de suministro 
+## 3.2. Cadena de suministro 
 
 La cadena de suministros en el sector financiero es una solución que apoya a diversos  proveedores y socios dentro de la cadena productiva,siendo su objetivo principal mejorar la  liquidez de las empresas y permitiendo liberar capital circulante que quedaría retenido en la  cadena de suministros.  
 (BBVA, 2024) 
@@ -117,7 +117,7 @@ Los atacantes pueden usar estos proveedores para atacar al banco por vías menos
 - Establecer políticas de privacidad adecuadas
 - Se deben preparar planes de respuesta ante incidentes para los proveedores  externos
    
-## Impacto de la arquitectura financiera en la ciberseguridad 
+## 3.3. Impacto de la arquitectura financiera en la ciberseguridad 
 
 Las propias arquitecturas , tanto del mercado financiero como de las cadenas de custodia  conllevan riesgos cibernéticos si se administran erróneamente. Un 60% de los ataques en  general suelen originarse de las cadenas de suministro. Finbank, como el resto de  entidades financieras, posee ramificaciones o, por decirlo de otro modo, proveedores  externos relacionados a esta entidad(Cloud, software,...). Estos proveedores externos  suponen riesgos notables ya que, los atacantes pueden moverse lateralmente y, atacando  un servicio externo, pueden atacar el banco. Esta clase de ataques suponen ataques a la  cadena de suministro 
 (S., 2025) 
@@ -129,7 +129,7 @@ La infraestructura compartida, en algunos casos, y los servicios que se usan nor
 - Crear planes de mitigación específicos para ataques por estas “ramificaciones”
  Toda la arquitectura financiera y de la cadena de suministro está diseñada para mantener el  flujo de dinero y la constancia, pero esa misma dependencia de proveedores externos  facilita que los ciberataques, en su mayoría, provengan de ellos. Si no se integra la  ciberseguridad desde el principio , toda la infraestructura podría colapsar en cuanto se  produzca un fallo externo.
 
-# Vulnerabilidades de sistemas de pago 
+# 4. Vulnerabilidades de sistemas de pago 
 
 Existen diversos sistemas de pago(Que no usen efectivo), por lo que , debido a la variedad,  hay diversas vulnerabilidades en base al método de pago que se usa, en términos  generales: 
 - Tarjetas de crédito: 
@@ -160,7 +160,7 @@ Los atacantes pueden usar la característica de “Solicitar bizum” con
 argumentos invencibles y aprovechar su espontaneidad para obtener  ganancias
 (Incibe, 2022) 
 
-## Finbank
+## 4.1. Finbank
 
 Siendo Finbank un banco europeo, es evidente que a día de hoy, ofrece servicios de pago  con tarjetas de crédito o en línea, exponiéndose así a los riesgos que esto supone en un  primer lugar. Para evitar dichos riesgo se va a seguir el PCI DSS(Estándar de seguridad de  datos de la industria de Tarjetas de crédito), el cual se compone de 3 componentes  principales: 
 - Gestionar la introducción de datos de tarjetas de crédito de los clientes 
@@ -200,7 +200,7 @@ En conclusión, para aplicar el PCI DS a finbank correctamente para afrontar los
 - Seguridad de la red interna con firewalls correctamente implementados • Usar un cifrado fuerte(AES-256) para encriptar los datos mínimos almacenados • Usar un SIEM para detectar comprometimientos anómalos y que se generen alertas  en tiempo real 
 - Implementar el acceso basado en roles y la autenticación multifactor asegurando así  que el personal autorizado pueda interactuar con los sistemas de pagos Como resultado de la implementación de dichos requerimientos en el banco, los incidentes  de seguridad podrán ser contenidos sin exfiltraciones de datos , haciendo posible mantener  la continuidad de los servicios de pago. Demostrando así la efectividad del cumplimiento del  PCI DSS en la protección de los datos de las tarjetas de los clientes 
 
-## Buenas prácticas 
+## 4.2. Buenas prácticas 
 
 Se van a redactar algunas buenas prácticas en algunos campos importantes del banco a  implementar para mejorar la seguridad 
 - Red
@@ -224,7 +224,7 @@ Se van a redactar algunas buenas prácticas en algunos campos importantes del ba
    - Llevar a cabo escanear regulares para encontrar vulnerabilidades 
    - Llevar a cabo pruebas de penetración para hallar nuevas vulnerabilidades 
 
-## Propuestas innovadoras de seguridad para los pagos 
+## 4.3. Propuestas innovadoras de seguridad para los pagos 
 
 También se pueden aplicar o tener en cuenta consideraciones para innovar la seguridad del  método de pago de finbank. Estas posibles medidas a implementar pueden rebajar el estrés  sobre los trabajadores o ayudarles a administrar mejor sus tareas o asignarles otras incluso. 
 - Justificar pagos 
@@ -233,7 +233,7 @@ una compra física u online, llegue un mensaje al número de teléfono en el que
 - Uso de ia para automatizar procesos de pago 
 Con el anterior punto, el uso de ia está relacionado con una confirmación del usuario  al hacer la compra, pudiendo agilizar los procesos. También, aunque esto esté más  del lado de los logs, hacer un análisis de los momentos en los que los usuarios  suelen entrar a la app del banco o suelan o tiendan a hacer compras en línea o física  en mayor cantidad(Festividades o cumpleaños), para que se envíe un correo de  confirmación al usuario dueño de la cuenta si es él(Número de teléfono y correo  electrónico requiriendo una confirmación de los dos en caso de que sea desde otro  dispositivo, por ejemplo, por un cambio de teléfono o móvil)
 
-# Obligaciones legales y regulatorias 
+# 5. Obligaciones legales y regulatorias 
 
 Siendo el sector financiero uno de los sectores más importantes del mundo, es necesario  aplicar ciertas obligaciones regulatorias para evitar fallas de seguridad y legales para evitar  cometer delitos de cualquier forma, incluso al sufrir un ataque es posible salir perdiendo aún  más si , por ejemplo, no se publica el ataque(Si ha sido de gran magnitud) en un periodo de  tiempo determinado, esto no solo afecta a los bancos sino también a negocios. Algunas  obligaciones legales y regulatorias que el banco debe seguir son: 
 - GDPR(Reglamento general de protección de datos): 
@@ -271,7 +271,7 @@ Si se sufren retrasos , se deben notificar los motivos del mismo lo antes  posib
 (EALDE, 2020) 
 (España, 2024) 
 
-# Casos de estudio
+# 6. Casos de estudio
 
 Finbank ha sufrido ciertos incidentes de seguridad recientemente relacionados con ataques  de malware y grupos APT(Aadvanced Persisted Thereat): 
 - TINBA 
@@ -279,7 +279,7 @@ Finbank ha sufrido ciertos incidentes de seguridad recientemente relacionados co
 - Carbanak 
 Ya que estos ataques, se componen por correos de phishing a empleados y  clientes,accesos no autorizados a cuentas o a carteras de criptomonedas, fraudes,... Es  necesario analizar sus técnicas, tácticas y procedimientos para no ser vulnerables a ellos, y  poder entender cómo cada uno atacaba, comportamienos comunes de los mismos, modo  de “expansión” de los mismos 
 
-## TINBA 
+## 6.1. TINBA 
 
 También llamado Tinybanker y Suzy,TINBA es un troyano que infecta dispositivos  windows(7,8,vista y xp) con el objetivo de robar credenciales o información útil  principalmente sobre datos bancarios. El troyano se instala por medio de spam,  suplantación de organizaciones, usando ingeniería social para que el usuario visite sitios  web maliciosos 
 (Incibe, 2024) 
@@ -303,7 +303,7 @@ El troyano recibe actualizaciones desde el servidor C&C que modifican su  funcio
 Los datos robados son enviados al servidor C&C del atacante, pudiendo estar  ubicado en una infraestructura comprometida o una red de servidores  comprometidos. 
 (CiberWiki, 2024) 
 
-## ZEUS 
+## 6.2. ZEUS 
 
 Zeus, también llamado Zbot es un troyano ,el cual se originó en 2006(Identificado en 2007 y  creado en el 2005), de equipos Windows(7,8,vista y xp) con el objetivo de robar  credenciales bancarias o información importante. Y los ordenadores infectados pasan a  formar parte de una red botnet(Red la cual se vio mejorada por una de las versiones de  Zeus, GameOver, que cifraba las comunicaciones). Con este contexto, se puede decir con  seguridad que tinba y zeus forman parte de la misma “familia” de malware, aunque zeus sea  más antiguo y no esté nada relacionado con tinba, pero son indiscutiblemente similares en  algunos aspectos. 
 Zeus se usó en un primer lugar para robar información confidencial(sobre los  sistemas,credenciales de usuario,...), pero por su alto nivel de personalización , se podía  modificar para que recopilase toda clase de información y no solo antes de empezar el  ataque, el troyano tenía conexión establecida con el servidor C&C del atacante y podía  recibir actualizaciones.
@@ -316,7 +316,7 @@ Los creadores de Zeus crearon el virus con la idea de que pase desapercibido, de
 Al principio, Zeus robaba contraseñas por medio de la función de almacenamiento de  contraseñas de Internet Explorer obteniendo las contraseñas almacenadas en el navegador  y, si detectaba que la víctima visitaba una web bancaria, usaba el registro de tecleos del  teclado o métodos de captura de formularios desde el navegador para obtener nombres de  usuario y contraseñas. 
 (Belcic, 2022) 
 
-## Carbanak 
+## 6.3. Carbanak 
 
 Carbanak es un grupo APT enfocado en el sector financiero, aunque también ese nombre  se le da a una familia de malware del mismo grupo. Anunciado en diciembre de 2014 y en  febrero de 2015. El grupo no buscaba sacar la mayor cantidad posible de beneficios a  ciegas, sino que más bien se centraba en ataques a objetivos específicos, equipos de alto  valor ,por ejemplo, los infectan y los usaban para moverse lateralmente hacia otros  dispositivos de los cuales sacar beneficios(Confirmado por medio de un análisis de las  muestras comportamiento de red y análisis estático para comparar código). Uno de sus ataques fue a un hotel casino. El vector siendo un correo electrónico phishing  que contenía un exploit. El grupo lo llevó a cabo con el objetivo de comprometer servidores  en los puntos de venta usados para procesar pagos. El backdoor usado era conocido como  meterpreter(programa de interpretación de comandos), aunque el código de dicho programa  fue alterado para añadirle una nueva funcionalidad, la inyección del proceso svchost.exe(Se  confirmó por el analisis del código binario). El backdoor metia 2 malware: 
 - Win32/Spy.Sekur→Malware reconocido usado por Carbanak 
@@ -328,7 +328,7 @@ Se notan los repetidos intentos de atacar a empresas de origen ruso y ucraniano 
 El análisis y la comparación de código y certificados junto con la recolección de los  indicadores(Nombres de fichero, patrones de phishing,...) ayudó a los investigadores a  reconstruir la campaña para comprender lo sucedido en este ataque 
 (Cherepanov, 2015)
 
-# Evaluación de amenazas en criptomonedas 
+# 7. Evaluación de amenazas en criptomonedas 
 
 Hoy en día, la criptomoneda más conocida es el bitcoin, cuyo precio varía y su valor se  puede disparar. Este sistema de inversión posee una gran dificultad de seguimiento de las  transacciones. A la hora de adquirir criptomonedas, hay que tener en cuenta diversos  aspectos o vulnerabilidades o ataques que pueden sufrir que habría que mitigar en un  primer lugar si se va a incluir en el nuevo método de pago: 
 - Ataques de puentes 
@@ -362,7 +362,7 @@ Uno de los primeros sitios que permitía a los usuarios intercambiar bitcoin. En
 (101, 2023) 
 (kaspersky, 2025) 
 
-## Medidas de mitigación 
+## 7.1. Medidas de mitigación 
 
 Frente a las amenazas de las carteras de criptomonedas o a la compra de criptomonedas,  ya que finbank posee un servicio del mismo, se deben implementar maneras de asegurar  las carteras de los clientes para que no sufran ataques ni pérdidas. 
 - Uso de una cartera segura 
@@ -380,7 +380,7 @@ Se deben cifrar con un cifrado suficientemente seguro los datos y los backups de
 Se debe adoptar un sistema de custodia híbrida, en la cual los fondos se almacenan  en carteras en frío mientras que una pequeña parte está en carteras en caliente  destinadas a operaciones diarias. 
 (Arruda, 2025)
 
-## Predicciones de amenazas futuras 
+## 7.2. Predicciones de amenazas futuras 
 
 - Aumento de ataques a puentes 
 Los atacantes pueden optar por intentar romper la seguridad o, por otro lado,  pueden centrarse en encontrar fallos en el propio código. Estos ataques aumentarán  cuanto mayor sea la superficia propia de ataque(A más carteras digitales, o  expansiones del banco, más “territorio” pueden tener para atacar) 
@@ -389,7 +389,7 @@ A pesar de usar diferentes tipos de carteras, no se puede estar realmente proteg
 - Interés de los atacantes en el banco 
 Ya que finbank, como otros bancos, ofrecen servicios de criptomonedas, los  atacantes pueden optar por atacar al centro de todo para obtener claves o acceso a  información confidencial, ya que los bancos mueven más información y dinero que  las propias carteras dgitales 
 
-# Plan estratégico de mitigación 
+# 8. Plan estratégico de mitigación 
 
 Ante incidentes de seguridad, en el nuevo método de pago de Finbank, y en el propio banco  en sí, hay que establecer un plan estratégico que se deba llevar a cabo en caso de  incidentes de seguridad. Se van a redactar varios pasos a seguir: 
 1. Preseguridad  
@@ -425,7 +425,7 @@ Se debe elaborar un informe final en el que se explique claramente:
 También se deben llevar a cabo simulacros de seguridad para probar la eficacia del  plan y llevar a cabo mejores planes en el futuro que puedan ayudar en la seguridad de la  empresa 
 (Padua, 2025)
 
-# Comunicación ejecutiva hacia la junta directiva 
+# 9. Comunicación ejecutiva hacia la junta directiva 
 
 El análisis llevado a cabo en finbank muestra que el banco enfrenta riesgos y retos de  seguridad considerables. Debido a eso, la empresa debe mejorar sus defensas y resiliencia  mediante la implementación del plan estratégico de mitigación ya diseñado. Un incidente de  seguridad en finbank puede tener varios tipos de impactos: 
 - Pérdidas económicas y reputacionales 
