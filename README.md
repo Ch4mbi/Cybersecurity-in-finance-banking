@@ -1,6 +1,7 @@
 # Proyecto de analisis de la seguridad financiera/Ataques y medidas
 **Proyecto de investigación universitario**
 Hecho en el periodo de: 29/9/2025 - 25/11/2025
+
 [Ch4mbi](https://github.com/Ch4mbi)
 
 ## Descripción
