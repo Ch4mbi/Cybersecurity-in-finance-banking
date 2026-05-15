@@ -1,6 +1,7 @@
 Proyecto de investigacion universitario llevado a cabo entre el 29-9-2025 hasta el 25-11-2025.
 
 El escenario es ficticio, dado el contexto de la propia tarea.
+
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
 
 # 1. Introducción
@@ -159,7 +160,7 @@ La seguridad del bizum depende de la propia app bancaria. Si la app no está  co
 Los atacantes pueden usar la característica de “Solicitar bizum” con  
 argumentos invencibles y aprovechar su espontaneidad para obtener  ganancias
 (Incibe, 2022) 
-
+[Github: Ch4mbi](https://github.com/Ch4mbi)
 ## 4.1. Finbank
 
 Siendo Finbank un banco europeo, es evidente que a día de hoy, ofrece servicios de pago  con tarjetas de crédito o en línea, exponiéndose así a los riesgos que esto supone en un  primer lugar. Para evitar dichos riesgo se va a seguir el PCI DSS(Estándar de seguridad de  datos de la industria de Tarjetas de crédito), el cual se compone de 3 componentes  principales: 
@@ -327,7 +328,7 @@ Tras que el malware Spy.Agent.ORM fuera anunciado, la empresa Blue Coat informó
 Se notan los repetidos intentos de atacar a empresas de origen ruso y ucraniano por medio  de correos de phishing , con contexto del banco ,con archivos .SCR (Con iconos de word o  de adobe acrobat) o exploits RTF. Aunque no se limitaba a Rusia, sino que también  enviaron correos similares a bancos de los Emiratos Árabes, Alemania,... y también es un  grupo que sigue activo hoy en día ,con intentos de ataque a Estados Unidos junto con  Emiratos Árabes , Alemania,... 
 El análisis y la comparación de código y certificados junto con la recolección de los  indicadores(Nombres de fichero, patrones de phishing,...) ayudó a los investigadores a  reconstruir la campaña para comprender lo sucedido en este ataque 
 (Cherepanov, 2015)
-
+[Github: Ch4mbi](https://github.com/Ch4mbi)
 # 7. Evaluación de amenazas en criptomonedas 
 
 Hoy en día, la criptomoneda más conocida es el bitcoin, cuyo precio varía y su valor se  puede disparar. Este sistema de inversión posee una gran dificultad de seguimiento de las  transacciones. A la hora de adquirir criptomonedas, hay que tener en cuenta diversos  aspectos o vulnerabilidades o ataques que pueden sufrir que habría que mitigar en un  primer lugar si se va a incluir en el nuevo método de pago: 
