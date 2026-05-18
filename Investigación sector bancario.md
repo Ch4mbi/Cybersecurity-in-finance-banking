@@ -42,7 +42,8 @@ Como se mencionó anteriormente los ataques de phishing dirigidos a clientes del
 El motivo más común. Hoy en día existen muchos ciberataques, cada uno enfocado  a un objetivo diferente dentro del campo de finanzas. No tiene porqué ser al banco  en sí, sino también, por ejemplo a métodos de pago externos. Diversos informes  indican que los ataques más llevados a cabo en el sector financiero son: ○ Inyección SQL 
     - Inclusión de archivos locales 
     - Secuencia de comandos en sitios cruzados 
-    - Inyección Java OGNL 
+    - Inyección Java OGNL
+
 (Kelly, 2021) 
 - Empresas cooperadoras: 
 Antes se habló de que los atacantes pueden usar el movimiento lateral para atacar  al banco. Un ejemplo sería el que atacan a un colaborador/rama del banco, con  menos recursos para defenderse, infectando algún equipo que contenga algún  contacto con un alto cargo del banco e ir a por él, como ya se ha hecho en otros  ataques de grupos APT(Carbanak) 
@@ -81,6 +82,7 @@ Aporta asistencia financiera para asegurar los pagos de las deudas nacionales de
 Tiene el objetivo de financiar las políticas de desarrollo en materia de asistencia  focalizada y obras públicas. 
 - La organización mundial del comercio: 
 Se encarga de amortizar las normas del comercio internacional y liberalizar el  comercio internacional para lograr el flujo comercial 
+
 (Crédito, 2024)
 
 La dependencia de los mercados financieros en la digitalización hoy en día ha supuesto una  notable exposición a riesgos a los mismos como: 
@@ -102,7 +104,8 @@ La cadena de suministro tiene 3 actores principales:
 - Intermediarios financieros(Bancos o plataformas que proporcionan fondos  necesarios para anticipar los pagos) 
 En la cadena de suministro en el contexto financiero, hay diversos campos de venta que  intervienen en el proceso(Empresas automovilísticas,supermercados, tecnologías,...). Al  financiar la cadena de suministros, se obtiene ciertas ventajas: 
 - Estabilidad económica 
-- Reducción de riesgos en la interrupción de la cadena de suministro - - Proveedores satisfechos 
+- Reducción de riesgos en la interrupción de la cadena de suministro
+- Proveedores satisfechos 
 - Reducción de riesgo de retraso de pagos 
 - Apoyo a las operaciones empresariales 
 Dependiendo de las necesidades de cada individuo o de cada empresa, hay diferentes tipos  de financiamiento de la cadena de suministro: 
@@ -112,6 +115,7 @@ El proveedor vende las facturas a un intermediario que las paga por adelantado
 El comprador trabaja con el intermediario para garantizar pagos anticipados a los  proveedores 
 - Inventory Financing: 
 El comprador obtiene el crédito usando el inventario como garantía para financiar la  compra de materias primas o productos terminados 
+
 (consulting, 2025) 
 Los atacantes pueden usar estos proveedores para atacar al banco por vías menos  comunes. Esto se debe a que, si es un servicio compartido, los atacantes pueden  aprovechar la vulnerabilidad para acceder al banco, y , por otro, lado, los sistemas de los  proveedores pueden no ser compatibles con las herramientas del banco dificultando la  localización de vulnerabilidades. Para mitigar estos posibles vectores de ataque, se debe: 
 - Identificar proveedores críticos 
@@ -121,7 +125,9 @@ Los atacantes pueden usar estos proveedores para atacar al banco por vías menos
 ## 3.3. Impacto de la arquitectura financiera en la ciberseguridad 
 
 Las propias arquitecturas , tanto del mercado financiero como de las cadenas de custodia  conllevan riesgos cibernéticos si se administran erróneamente. Un 60% de los ataques en  general suelen originarse de las cadenas de suministro. Finbank, como el resto de  entidades financieras, posee ramificaciones o, por decirlo de otro modo, proveedores  externos relacionados a esta entidad(Cloud, software,...). Estos proveedores externos  suponen riesgos notables ya que, los atacantes pueden moverse lateralmente y, atacando  un servicio externo, pueden atacar el banco. Esta clase de ataques suponen ataques a la  cadena de suministro 
+
 (S., 2025) 
+
 (E&N, 2025) 
 La infraestructura compartida, en algunos casos, y los servicios que se usan normalmente  en estos sectores, facilita que una vulnerabilidad de un proveedor tenga un impacto muy  notable en el banco. También cabe destacar que la cadena de suministro, no es 100%  visible , ya que hay muchos procesos llevandose a cabo en cada entidad aliada al banco,  dejando muy posibles vulnerabilidades que no se hayan detectado todavía. Para mitigar  dichos riesgos, se debe de tener un plan de respuesta ante incidentes de terceros , ya que,  al ser “ajenos” al banco, se deben tratar de manera diferente a riesgos o vulnerabilidades  del mismo. Dicho plan debe incluir: 
 - Identificación de proveedores criticos 
@@ -159,6 +165,7 @@ La seguridad del bizum depende de la propia app bancaria. Si la app no está  co
    - Ingeniería social: 
 Los atacantes pueden usar la característica de “Solicitar bizum” con  
 argumentos invencibles y aprovechar su espontaneidad para obtener  ganancias
+
 (Incibe, 2022) 
 [Github: Ch4mbi](https://github.com/Ch4mbi)
 ## 4.1. Finbank
@@ -194,6 +201,7 @@ Hay que controlar quién tiene acceso físico a los servidores o sistemas de  al
 11. Probar regularmente la seguridad 
 Se deben llevar a cabo pruebas para encontrar vulnerabilidades, normalmente cada  1-2 meses, pruebas de penetración, y llevar a cabo revisiones periódicas de  seguridad 
 12. Apoyar la seguridad de la información con políticas y programas organizativos  Hay que tener políticas de seguridad formales para su seguridad de la información y  se deben comunicar a todo el personal. También, con esas políticas se formará al  personal en el sector de la ciberseguridad , al menos a un nivel base para que , si  las medidas de seguridad fallan, puedan identificar intentos de robo de credenciales  por ejemplo 
+
 (secureframe, 2025)
 
 En conclusión, para aplicar el PCI DS a finbank correctamente para afrontar los diversos  riesgos se deben aplicar al banco estos requisitos: 
@@ -249,6 +257,7 @@ Siendo el sector financiero uno de los sectores más importantes del mundo, es n
       - Monitorización constante de las transacciones para poder detectar  tráfico inusual 
       - Control de acceso 
    - El cumplimiento de esta normativa permite reducir el riesgo de fraude y  mejora la confianza de los clientes 
+
 (Acosta, 2024) 
 - DORA: 
  - Reglamento europeo que exige a las entidades financieras gestionar los  riesgos tecnológicos  
@@ -266,10 +275,14 @@ notificación empieza cuando se determina la gravedad del incidente) , y como  m
   - Informe final 
 Como mucho 1 mes después del incidente 
 Si se sufren retrasos , se deben notificar los motivos del mismo lo antes  posible. En España, las alertas se deben notificar al Banco de España, el  cual actúa como autoridad ante incidentes de este tipo(Cibernéticos), aunque  dependiendo del tipo de institución, o del reglamento que se está siguiendo,  el receptor puede variar 
+
 (Gómez, 2025) 
  - No respetar el RGPD(GDPR) conlleva el pago de multas junto con la pérdida  de confianza de los clientes 
+
 (Asociados, 2024) 
+
 (EALDE, 2020) 
+
 (España, 2024) 
 
 # 6. Casos de estudio
@@ -283,8 +296,10 @@ Ya que estos ataques, se componen por correos de phishing a empleados y  cliente
 ## 6.1. TINBA 
 
 También llamado Tinybanker y Suzy,TINBA es un troyano que infecta dispositivos  windows(7,8,vista y xp) con el objetivo de robar credenciales o información útil  principalmente sobre datos bancarios. El troyano se instala por medio de spam,  suplantación de organizaciones, usando ingeniería social para que el usuario visite sitios  web maliciosos 
+
 (Incibe, 2024) 
 Es un troyano que empezó el ataque en EEUU,Turquía,Croacia, y República Checa para,  posteriormente, trasladarse a Polonia,Holanda ,Italia y Alemania(Esta migración se debe a  que el troyano era “maleable”/”editable” dependiendo del atacante).A día de hoy ,se sabe  que el troyano afectó a más de 4,1 millones de usuarios y a casi 1500 instituciones  financieras. Tinba simula la red del banco de cada usuario, permitiendo al atacante obtener  datos bancarios y, en algunos casos , funciona a modo de red de botnets. El malware se  ejecuta en la propia red del banco y el usuario afectado recibe un mensaje de un fallo de  ingreso de dinero en su cuenta, y piden reembolsar dicho dinero a un enlace que  envían(Ingeniería social). El dinero supuestamente transferido al usuario no es real, pero  por otro lado, el dinero que devuelva será del propio usuario
+
 (Barrera, 2015) 
 El funcionamiento de TINBA consiste en: 
 1. Infección inicial 
@@ -302,6 +317,7 @@ Usa técnicas para pasar desapercibido en los sistemas. Por ejemplo, técnicas d
 7. Actualización y configuración 
 El troyano recibe actualizaciones desde el servidor C&C que modifican su  funcionamiento u objetivos o añaden nuevas maneras de evadir sistemas. 8. Exfiltración de datos 
 Los datos robados son enviados al servidor C&C del atacante, pudiendo estar  ubicado en una infraestructura comprometida o una red de servidores  comprometidos. 
+
 (CiberWiki, 2024) 
 
 ## 6.2. ZEUS 
@@ -309,12 +325,16 @@ Los datos robados son enviados al servidor C&C del atacante, pudiendo estar  ubi
 Zeus, también llamado Zbot es un troyano ,el cual se originó en 2006(Identificado en 2007 y  creado en el 2005), de equipos Windows(7,8,vista y xp) con el objetivo de robar  credenciales bancarias o información importante. Y los ordenadores infectados pasan a  formar parte de una red botnet(Red la cual se vio mejorada por una de las versiones de  Zeus, GameOver, que cifraba las comunicaciones). Con este contexto, se puede decir con  seguridad que tinba y zeus forman parte de la misma “familia” de malware, aunque zeus sea  más antiguo y no esté nada relacionado con tinba, pero son indiscutiblemente similares en  algunos aspectos. 
 Zeus se usó en un primer lugar para robar información confidencial(sobre los  sistemas,credenciales de usuario,...), pero por su alto nivel de personalización , se podía  modificar para que recopilase toda clase de información y no solo antes de empezar el  ataque, el troyano tenía conexión establecida con el servidor C&C del atacante y podía  recibir actualizaciones.
 El troyano era distribuido por medio de spam y phishing para que la víctima acceda a sitios  web malintencionados, por medio de un enlace, para infectarle. Aunque por lo modificable  que era Zeus, podía haber más métodos. 
+
 (incibe, 2024) 
+
 (MITRE, 2024) 
 Zeus está orientado a empresas ,diseñado para interrumpir la productividad o ganar dinero,  pudiendo robarle a clientes o a empresas. Tras que el ordenador objetivo es infectado y se  añade a la botnet, se comunica con el servidor C&C y es supervisado por el atacante, el  cual puede acceder con control remoto y controlarlo(Solo en algunas versiones del mismo).  El troyano monitoriza la actividad de los navegadores web de las víctimas para obtener  credenciales bancarias y/o inyectar scripts en páginas web abiertas. 
 Los creadores de Zeus crearon el virus con la idea de que pase desapercibido, dejando  trabajar a las víctimas con sus dispositivos sin ningún tipo de problema. Mientras el troyano  estuviera más tiempo en el ordenador, más datos recogería. Cada ordenador en la red  botnet puede usarse como respaldo en caso de que otro ordenador se desconecte de la red  botnet. 
+
 (proofpoint, 2025) 
 Al principio, Zeus robaba contraseñas por medio de la función de almacenamiento de  contraseñas de Internet Explorer obteniendo las contraseñas almacenadas en el navegador  y, si detectaba que la víctima visitaba una web bancaria, usaba el registro de tecleos del  teclado o métodos de captura de formularios desde el navegador para obtener nombres de  usuario y contraseñas. 
+
 (Belcic, 2022) 
 
 ## 6.3. Carbanak 
@@ -327,6 +347,7 @@ Ambos ejecutables estaban certificados por la empresa Blik, esto se sabe por la 
 Tras que el malware Spy.Agent.ORM fuera anunciado, la empresa Blue Coat informó sobre  correos de phishing enviados a empleados del Banco central de armería junto con un  payload en el mismo. 
 Se notan los repetidos intentos de atacar a empresas de origen ruso y ucraniano por medio  de correos de phishing , con contexto del banco ,con archivos .SCR (Con iconos de word o  de adobe acrobat) o exploits RTF. Aunque no se limitaba a Rusia, sino que también  enviaron correos similares a bancos de los Emiratos Árabes, Alemania,... y también es un  grupo que sigue activo hoy en día ,con intentos de ataque a Estados Unidos junto con  Emiratos Árabes , Alemania,... 
 El análisis y la comparación de código y certificados junto con la recolección de los  indicadores(Nombres de fichero, patrones de phishing,...) ayudó a los investigadores a  reconstruir la campaña para comprender lo sucedido en este ataque 
+
 (Cherepanov, 2015)
 [Github: Ch4mbi](https://github.com/Ch4mbi)
 # 7. Evaluación de amenazas en criptomonedas 
@@ -346,21 +367,27 @@ vulnerabilidades por las cuales instalar código malicioso.
 Los propietarios de criptomonedas necesitan claves para acceder a sus  criptomonedas. Los atacantes pueden intentar conseguir dichas contraseñas  de diversas maneras 
 - Exploits de protocolos DeFi 
 El ataque a Balancer causó 100 millones de dólares de pérdidas. Esta pérdida se  debió a errores en el propio código, en el contrato inteligente que permitió retiros no  autorizados. 
+
 (Arruda, 2025) 
 
 También hay que tener en cuenta ataques que se han llevado a cabo en otros momentos a  otras empresas: 
 - Ronin Network 
 En 2022,la sidechain llamada Ronin Network sufrió un ataque del que robaron  173000 eth y 25,5 millones de usdc(Superando un total de 600 millones). El ataque  consistió en usar claves privadas comprometidas para falsificar retiros
+
 (Harán, 2022) 
 - Poly Network 
 Empresa que facilita el movimiento entre varias cadenas de bloques cuando los  usuarios intercambian una cadena por otra. En 2021, polinetwork sufrió un gran robo  de criptomonedas. Los atacantes aprovecharon un fallo de validación de mensajes  entre las block chains conectadas al puente, permitiéndoles firmar transacciones  como si fueran legítimas. El hacker devolvió la mayoría de fondos para demostrar la  vulnerabilidad 
+
 (Russon, 2021) 
 - FTX 
 FTX, que es uno de los exchanges más grandes de criptomonedas, en 2022 sufrió  un colapso causado por una empresa aliada mantenía expuestas tokens privadas de  usuarios. Ante esta exposición , comenzaron las retiradas masivas, y FTX congeló  los retiros y , poco después, se declaró en bancarrota 
+
 (Fran, 2025) 
 - Mt.Gox 
 Uno de los primeros sitios que permitía a los usuarios intercambiar bitcoin. En junio  de 2011,un hacker usó credenciales robadas para alterar el valor nominal del bitcoin  de $16.85 a $0,01 y transfirió 2000 bitcoins fuera de las cuentas de los clientes y los  clientes compraron bitcoins baratos durante el hackeo 
+
 (101, 2023) 
+
 (kaspersky, 2025) 
 
 ## 7.1. Medidas de mitigación 
@@ -372,6 +399,7 @@ Es una de las maneras más sencillas de asegurar las ganancias. Se debería de u
 Se recomienda activar la autenticación multifactor siempre que sea posible, siendo,  en el uso de carteras, algo indispensable. 
 - Usar redes privadas y seguras 
 Los atacantes pueden atacar tu dispositivo desde espacios con wifi públicos y , si se  tienen almacenadas en el dispositivo conectado, pueden intentar y conseguir las  monedas. 
+
 (kaspersky, 2024) 
 - Seguridad de los puentes 
 Como en el ataque de puente a Ronin, los atacantes robaron claves privadas para  robar los datos de los clientes. Por eso se deben llevar a cabo auditorías de  seguridad para los puentes que se usen y también se deben validar los contratos  inteligentes
@@ -424,6 +452,7 @@ Se debe elaborar un informe final en el que se explique claramente:
 - Tiempo de recuperación 
 - Medidas de seguridad que fallaron y cómo mejorarlas 
 También se deben llevar a cabo simulacros de seguridad para probar la eficacia del  plan y llevar a cabo mejores planes en el futuro que puedan ayudar en la seguridad de la  empresa 
+
 (Padua, 2025)
 
 # 9. Comunicación ejecutiva hacia la junta directiva 
